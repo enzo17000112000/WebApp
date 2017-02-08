@@ -24,6 +24,6 @@ function ui_print_footer ($date){
       <div class="date">$date</div>
       <div class="company">Any Co. </div>
       </div>
-      END;
+END;
 }      
 ?>
