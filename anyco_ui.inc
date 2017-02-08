@@ -22,7 +22,7 @@ function ui_print_footer ($date){
     echo<<<END
     <div calss="footer">
       <div class="date">$date</div>
-      <div calss="company">Any Co. </div>
+      <div class="company">Any Co. </div>
       </div>
       END;
 }      
