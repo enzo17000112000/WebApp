@@ -1,9 +1,3 @@
-$conn=oci_connect(username,password,server);
-
-username='hr'
-password='hr'
-server='//localhost/XE'
-
 <?php
   require('anyco_ui.inc');
 
@@ -14,7 +8,7 @@ $conn=oci_connect('hr','hr','//localhost/XE');
   ui_print_footer(date('Y-m-d H:i:s'));
 
 function do_query($conn,$query){
-    $stid = oci_parse($conn,$query)
+    $stid = oci_parse($conn,$query);
     $r = oci_execute($stid,OCI_DEFAULT);
   print '<table border="1">';
   while($row=oci_fetch_array($stid,OCI_RETURN_NULLS)){
