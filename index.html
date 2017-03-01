@@ -1,12 +1,76 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Activity 5</title>
+	<title>Switch_Index</title>
+	
 </head>
-<body>
-<script language="Javascript" type="text/javascript">
-	<!--
-		document.write("Hello World!")
-		//-->
-</script>
+<body bgcolor="pink">
+		<script type="text/javascript" language="javascript">
+	
+
+				<!--
+					var letter = true;
+					while(letter)
+					{
+					var grade=prompt("Enter your grade"," your grade here");
+					
+						switch(true)
+					{
+						case(grade >= 96 && grade<=100): document.write("<h1> You got A+ </h1> <h2>Congratulations!</h2> <br/>");
+						letter = isNaN(grade);
+						break;
+
+
+						case(grade >= 91 && grade<96): document.write("<h1> You got A </h1> Congratulations <br/>");
+						letter = isNaN(grade);
+						break;
+
+						case(grade >= 86 && grade<91): document.write("You got A-. Congratulations <br/>");
+						letter = isNaN(grade);
+						break;
+
+						case(grade >= 81 && grade<86): document.write("You got B+. Congratulations <br/>");
+						letter = isNaN(grade);
+						break;
+
+						case(grade >= 75 && grade<81): document.write("You got B. Congratulations <br/>");
+						letter = isNaN(grade);
+						break;
+
+						case(grade >= 69 && grade<75): document.write("You got B-. Congratulations <br/>");
+						letter = isNaN(grade);
+						break;
+						
+						case(grade >= 63 && grade<69): document.write("You got C+. Congratulations <br/>");
+						letter = isNaN(grade);
+						break;
+
+						case(grade >= 57 && grade<63): document.write("You got C. Congratulations <br/>");
+						letter = isNaN(grade);
+						break;
+
+						case(grade >= 50 && grade<57): document.write("You got C-. Congratulations <br/>");
+						letter = isNaN(grade);
+						break;
+
+						case(grade >= 49 && grade<50): document.write("Failed Sorry try again next semester. Study Harder Please. :P <br/>");
+						letter = isNaN(grade);
+						break;
+
+
+
+						default: alert("Invalid Entry. Please enter a number");
+						letter=true;
+					}
+					
+					}
+
+						
+					
+				//-->
+		</script>
+			
+
+					
 </body>
 </html>
